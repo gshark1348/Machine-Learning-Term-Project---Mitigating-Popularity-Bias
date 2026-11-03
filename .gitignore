@@ -1,0 +1,9 @@
+artifacts/
+.venv/
+__pycache__/
+*.zip
+poster_ids.json
+genome-tags.csv
+.DS_Store
+outputs/penalty_audit.csv
+outputs/independent_retest.csv
