@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="687.413pt" height="310.896pt" viewBox="0 0 687.413 310.896" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-11T14:45:26.103564</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 310.896 
+L 687.413 310.896 
+L 687.413 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 55.848 268.376 
+L 349.368 268.376 
+L 349.368 46.512 
+L 55.848 46.512 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="me1ab87cfa2" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#me1ab87cfa2" x="55.848" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="55.848" y="284.286" transform="rotate(-0 55.848 284.286)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#me1ab87cfa2" x="114.552" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="114.552" y="284.286" transform="rotate(-0 114.552 284.286)">0.2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#me1ab87cfa2" x="173.256" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="173.256" y="284.286" transform="rotate(-0 173.256 284.286)">0.4</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#me1ab87cfa2" x="231.96" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="231.96" y="284.286" transform="rotate(-0 231.96 284.286)">0.6</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#me1ab87cfa2" x="290.664" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="290.664" y="284.286" transform="rotate(-0 290.664 284.286)">0.8</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#me1ab87cfa2" x="349.368" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="349.368" y="284.286" transform="rotate(-0 349.368 284.286)">1.0</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <!-- 기존 P$_u$ (raw) -->
+     <g style="fill: #52514e" transform="translate(170.208 300.446)">
+      <text>
+       <tspan x="0" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">기</tspan>
+       <tspan x="9.999985" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">존</tspan>
+       <tspan x="19.999969" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+       <tspan x="23.199966" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">P</tspan>
+       <tspan x="34.035629" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+       <tspan x="37.235626" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">(</tspan>
+       <tspan x="42.235626" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">r</tspan>
+       <tspan x="45.75563" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">a</tspan>
+       <tspan x="51.405624" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">w</tspan>
+       <tspan x="59.755615" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">)</tspan>
+       <tspan x="29.325668" y="0.718745" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">u</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <path d="M 55.848 268.376 
+L 349.368 268.376 
+" clip-path="url(#pa5a4c9c32a)" style="fill: none; stroke-dasharray: 0.9,1.485; stroke-dashoffset: 0; stroke: #dcdcd8; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_8">
+      <defs>
+       <path id="m7fed6143be" d="M 0 0 
+L -3.5 0 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m7fed6143be" x="55.848" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: end; fill: #52514e" x="48.848" y="272.831" transform="rotate(-0 48.848 272.831)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <path d="M 55.848 227.347059 
+L 349.368 227.347059 
+" clip-path="url(#pa5a4c9c32a)" style="fill: none; stroke-dasharray: 0.9,1.485; stroke-dashoffset: 0; stroke: #dcdcd8; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m7fed6143be" x="55.848" y="227.347059" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: end; fill: #52514e" x="48.848" y="231.802059" transform="rotate(-0 48.848 231.802059)">20</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <path d="M 55.848 186.318117 
+L 349.368 186.318117 
+" clip-path="url(#pa5a4c9c32a)" style="fill: none; stroke-dasharray: 0.9,1.485; stroke-dashoffset: 0; stroke: #dcdcd8; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m7fed6143be" x="55.848" y="186.318117" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: end; fill: #52514e" x="48.848" y="190.773117" transform="rotate(-0 48.848 190.773117)">40</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_13">
+      <path d="M 55.848 145.289176 
+L 349.368 145.289176 
+" clip-path="url(#pa5a4c9c32a)" style="fill: none; stroke-dasharray: 0.9,1.485; stroke-dashoffset: 0; stroke: #dcdcd8; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m7fed6143be" x="55.848" y="145.289176" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: end; fill: #52514e" x="48.848" y="149.744176" transform="rotate(-0 48.848 149.744176)">60</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15">
+      <path d="M 55.848 104.260235 
+L 349.368 104.260235 
+" clip-path="url(#pa5a4c9c32a)" style="fill: none; stroke-dasharray: 0.9,1.485; stroke-dashoffset: 0; stroke: #dcdcd8; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m7fed6143be" x="55.848" y="104.260235" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: end; fill: #52514e" x="48.848" y="108.715235" transform="rotate(-0 48.848 108.715235)">80</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_17">
+      <path d="M 55.848 63.231294 
+L 349.368 63.231294 
+" clip-path="url(#pa5a4c9c32a)" style="fill: none; stroke-dasharray: 0.9,1.485; stroke-dashoffset: 0; stroke: #dcdcd8; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m7fed6143be" x="55.848" y="63.231294" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: end; fill: #52514e" x="48.848" y="67.686294" transform="rotate(-0 48.848 67.686294)">100</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="21.198" y="157.444" transform="rotate(-90 21.198 157.444)">사용자 수</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 55.848 268.376 
+L 70.524 268.376 
+L 70.524 268.376 
+L 55.848 268.376 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 70.524 268.376 
+L 85.2 268.376 
+L 85.2 268.376 
+L 70.524 268.376 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 85.2 268.376 
+L 99.876 268.376 
+L 99.876 268.376 
+L 85.2 268.376 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 99.876 268.376 
+L 114.552 268.376 
+L 114.552 268.376 
+L 99.876 268.376 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 114.552 268.376 
+L 129.228 268.376 
+L 129.228 268.376 
+L 114.552 268.376 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 129.228 268.376 
+L 143.904 268.376 
+L 143.904 268.376 
+L 129.228 268.376 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 143.904 268.376 
+L 158.58 268.376 
+L 158.58 268.376 
+L 143.904 268.376 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 158.58 268.376 
+L 173.256 268.376 
+L 173.256 266.324553 
+L 158.58 266.324553 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 173.256 268.376 
+L 187.932 268.376 
+L 187.932 268.376 
+L 173.256 268.376 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 187.932 268.376 
+L 202.608 268.376 
+L 202.608 254.015871 
+L 187.932 254.015871 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 202.608 268.376 
+L 217.284 268.376 
+L 217.284 247.861529 
+L 202.608 247.861529 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 217.284 268.376 
+L 231.96 268.376 
+L 231.96 217.089823 
+L 217.284 217.089823 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 231.96 268.376 
+L 246.636 268.376 
+L 246.636 182.215223 
+L 231.96 182.215223 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 246.636 268.376 
+L 261.312 268.376 
+L 261.312 98.105894 
+L 246.636 98.105894 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 261.312 268.376 
+L 275.988 268.376 
+L 275.988 120.671811 
+L 261.312 120.671811 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 275.988 268.376 
+L 290.664 268.376 
+L 290.664 57.076952 
+L 275.988 57.076952 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 290.664 268.376 
+L 305.34 268.376 
+L 305.34 157.597859 
+L 290.664 157.597859 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 305.34 268.376 
+L 320.016 268.376 
+L 320.016 196.575353 
+L 305.34 196.575353 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 320.016 268.376 
+L 334.692 268.376 
+L 334.692 235.552847 
+L 320.016 235.552847 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 334.692 268.376 
+L 349.368 268.376 
+L 349.368 266.324553 
+L 334.692 266.324553 
+z
+" clip-path="url(#pa5a4c9c32a)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 55.848 268.376 
+L 55.848 46.512 
+" style="fill: none; stroke: #52514e; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 55.848 268.376 
+L 349.368 268.376 
+" style="fill: none; stroke: #52514e; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_15">
+    <!-- 평균 (1-P$_u$) = 0.27 -->
+    <g style="fill: #0b0b0b" transform="translate(64.6536 66.5152)">
+     <text>
+      <tspan x="0" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">평</tspan>
+      <tspan x="9.999985" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">균</tspan>
+      <tspan x="19.999969" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b"> </tspan>
+      <tspan x="23.199966" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">(</tspan>
+      <tspan x="28.199966" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">1</tspan>
+      <tspan x="34.999954" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">-</tspan>
+      <tspan x="39.999954" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">P</tspan>
+      <tspan x="50.835617" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">)</tspan>
+      <tspan x="55.835617" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b"> </tspan>
+      <tspan x="59.035614" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">=</tspan>
+      <tspan x="66.715607" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b"> </tspan>
+      <tspan x="69.915604" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">0</tspan>
+      <tspan x="76.715591" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">.</tspan>
+      <tspan x="80.165588" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">2</tspan>
+      <tspan x="86.965576" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">7</tspan>
+      <tspan x="46.125656" y="0.718745" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #0b0b0b">u</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_25">
+    <path d="M 378.168 268.376 
+L 671.688 268.376 
+L 671.688 46.512 
+L 378.168 46.512 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_7">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#me1ab87cfa2" x="378.168" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="378.168" y="284.286" transform="rotate(-0 378.168 284.286)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#me1ab87cfa2" x="436.872" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="436.872" y="284.286" transform="rotate(-0 436.872 284.286)">0.2</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#me1ab87cfa2" x="495.576" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="495.576" y="284.286" transform="rotate(-0 495.576 284.286)">0.4</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#me1ab87cfa2" x="554.28" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="554.28" y="284.286" transform="rotate(-0 554.28 284.286)">0.6</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#me1ab87cfa2" x="612.984" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="612.984" y="284.286" transform="rotate(-0 612.984 284.286)">0.8</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#me1ab87cfa2" x="671.688" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 10px; font-family: 'AppleGothic'; text-anchor: middle; fill: #52514e" x="671.688" y="284.286" transform="rotate(-0 671.688 284.286)">1.0</text>
+     </g>
+    </g>
+    <g id="text_22">
+     <!-- 순위 P$_u$ (rank) -->
+     <g style="fill: #52514e" transform="translate(491.328 300.446)">
+      <text>
+       <tspan x="0" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">순</tspan>
+       <tspan x="9.999985" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">위</tspan>
+       <tspan x="19.999969" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+       <tspan x="23.199966" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">P</tspan>
+       <tspan x="34.035629" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+       <tspan x="37.235626" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">(</tspan>
+       <tspan x="42.235626" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">r</tspan>
+       <tspan x="45.75563" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">a</tspan>
+       <tspan x="51.405624" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">n</tspan>
+       <tspan x="56.995621" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">k</tspan>
+       <tspan x="62.13562" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">)</tspan>
+       <tspan x="29.325668" y="0.718745" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">u</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_7">
+     <g id="line2d_25">
+      <path d="M 378.168 268.376 
+L 671.688 268.376 
+" clip-path="url(#p7528c24f1d)" style="fill: none; stroke-dasharray: 0.9,1.485; stroke-dashoffset: 0; stroke: #dcdcd8; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m7fed6143be" x="378.168" y="268.376" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_27">
+      <path d="M 378.168 227.347059 
+L 671.688 227.347059 
+" clip-path="url(#p7528c24f1d)" style="fill: none; stroke-dasharray: 0.9,1.485; stroke-dashoffset: 0; stroke: #dcdcd8; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m7fed6143be" x="378.168" y="227.347059" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_29">
+      <path d="M 378.168 186.318117 
+L 671.688 186.318117 
+" clip-path="url(#p7528c24f1d)" style="fill: none; stroke-dasharray: 0.9,1.485; stroke-dashoffset: 0; stroke: #dcdcd8; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m7fed6143be" x="378.168" y="186.318117" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_31">
+      <path d="M 378.168 145.289176 
+L 671.688 145.289176 
+" clip-path="url(#p7528c24f1d)" style="fill: none; stroke-dasharray: 0.9,1.485; stroke-dashoffset: 0; stroke: #dcdcd8; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m7fed6143be" x="378.168" y="145.289176" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_33">
+      <path d="M 378.168 104.260235 
+L 671.688 104.260235 
+" clip-path="url(#p7528c24f1d)" style="fill: none; stroke-dasharray: 0.9,1.485; stroke-dashoffset: 0; stroke: #dcdcd8; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m7fed6143be" x="378.168" y="104.260235" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_35">
+      <path d="M 378.168 63.231294 
+L 671.688 63.231294 
+" clip-path="url(#p7528c24f1d)" style="fill: none; stroke-dasharray: 0.9,1.485; stroke-dashoffset: 0; stroke: #dcdcd8; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#m7fed6143be" x="378.168" y="63.231294" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_26">
+    <path d="M 378.168 268.376 
+L 392.844 268.376 
+L 392.844 229.398506 
+L 378.168 229.398506 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 392.844 268.376 
+L 407.52 268.376 
+L 407.52 206.832588 
+L 392.844 206.832588 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 407.52 268.376 
+L 422.196 268.376 
+L 422.196 223.244165 
+L 407.52 223.244165 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 422.196 268.376 
+L 436.872 268.376 
+L 436.872 210.935482 
+L 422.196 210.935482 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 436.872 268.376 
+L 451.548 268.376 
+L 451.548 217.089823 
+L 436.872 217.089823 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 451.548 268.376 
+L 466.224 268.376 
+L 466.224 210.935482 
+L 451.548 210.935482 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_32">
+    <path d="M 466.224 268.376 
+L 480.9 268.376 
+L 480.9 225.295612 
+L 466.224 225.295612 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_33">
+    <path d="M 480.9 268.376 
+L 495.576 268.376 
+L 495.576 225.295612 
+L 480.9 225.295612 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_34">
+    <path d="M 495.576 268.376 
+L 510.252 268.376 
+L 510.252 241.707188 
+L 495.576 241.707188 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_35">
+    <path d="M 510.252 268.376 
+L 524.928 268.376 
+L 524.928 225.295612 
+L 510.252 225.295612 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_36">
+    <path d="M 524.928 268.376 
+L 539.604 268.376 
+L 539.604 200.678247 
+L 524.928 200.678247 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_37">
+    <path d="M 539.604 268.376 
+L 554.28 268.376 
+L 554.28 233.5014 
+L 539.604 233.5014 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_38">
+    <path d="M 554.28 268.376 
+L 568.956 268.376 
+L 568.956 229.398506 
+L 554.28 229.398506 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_39">
+    <path d="M 568.956 268.376 
+L 583.632 268.376 
+L 583.632 215.038376 
+L 568.956 215.038376 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_40">
+    <path d="M 583.632 268.376 
+L 598.308 268.376 
+L 598.308 208.884035 
+L 583.632 208.884035 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_41">
+    <path d="M 598.308 268.376 
+L 612.984 268.376 
+L 612.984 231.449953 
+L 598.308 231.449953 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_42">
+    <path d="M 612.984 268.376 
+L 627.66 268.376 
+L 627.66 227.347059 
+L 612.984 227.347059 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_43">
+    <path d="M 627.66 268.376 
+L 642.336 268.376 
+L 642.336 223.244165 
+L 627.66 223.244165 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_44">
+    <path d="M 642.336 268.376 
+L 657.012 268.376 
+L 657.012 225.295612 
+L 642.336 225.295612 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_45">
+    <path d="M 657.012 268.376 
+L 671.688 268.376 
+L 671.688 235.552847 
+L 657.012 235.552847 
+z
+" clip-path="url(#p7528c24f1d)" style="fill: #2a78d6; stroke: #fcfcfb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_46">
+    <path d="M 378.168 268.376 
+L 378.168 46.512 
+" style="fill: none; stroke: #52514e; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_47">
+    <path d="M 378.168 268.376 
+L 671.688 268.376 
+" style="fill: none; stroke: #52514e; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_23">
+    <!-- 평균 (1-P$_u$) = 0.52 -->
+    <g style="fill: #0b0b0b" transform="translate(386.9736 66.5152)">
+     <text>
+      <tspan x="0" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">평</tspan>
+      <tspan x="9.999985" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">균</tspan>
+      <tspan x="19.999969" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b"> </tspan>
+      <tspan x="23.199966" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">(</tspan>
+      <tspan x="28.199966" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">1</tspan>
+      <tspan x="34.999954" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">-</tspan>
+      <tspan x="39.999954" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">P</tspan>
+      <tspan x="50.835617" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">)</tspan>
+      <tspan x="55.835617" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b"> </tspan>
+      <tspan x="59.035614" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">=</tspan>
+      <tspan x="66.715607" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b"> </tspan>
+      <tspan x="69.915604" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">0</tspan>
+      <tspan x="76.715591" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">.</tspan>
+      <tspan x="80.165588" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">5</tspan>
+      <tspan x="86.965576" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #0b0b0b">2</tspan>
+      <tspan x="46.125656" y="0.718745" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #0b0b0b">u</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+  <g id="text_24">
+   <!-- 사용자 성향 점수 P$_u$ 분포 -->
+   <g style="fill: #0b0b0b" transform="translate(7.2 19.674)">
+    <text>
+     <tspan x="0" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b">사</tspan>
+     <tspan x="13.999939" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b">용</tspan>
+     <tspan x="27.999878" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b">자</tspan>
+     <tspan x="41.999817" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b"> </tspan>
+     <tspan x="46.479797" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b">성</tspan>
+     <tspan x="60.479736" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b">향</tspan>
+     <tspan x="74.479675" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b"> </tspan>
+     <tspan x="78.959656" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b">점</tspan>
+     <tspan x="92.959595" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b">수</tspan>
+     <tspan x="106.959534" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b"> </tspan>
+     <tspan x="111.439514" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b">P</tspan>
+     <tspan x="126.609415" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b"> </tspan>
+     <tspan x="131.089395" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b">분</tspan>
+     <tspan x="145.089334" y="-0.625" style="font-size: 14px; font-family: 'AppleGothic'; fill: #0b0b0b">포</tspan>
+     <tspan x="120.015469" y="1.474993" style="font-style: oblique; font-size: 9.8px; font-family: 'DejaVu Sans'; fill: #0b0b0b">u</tspan>
+    </text>
+   </g>
+  </g>
+  <g id="text_25">
+   <!-- 왼쪽 기존 P$_u$, 오른쪽 순위 P$_u$ (검증 구간, 사용자 449명) -->
+   <g style="fill: #52514e" transform="translate(7.2 35.118)">
+    <text>
+     <tspan x="0" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">왼</tspan>
+     <tspan x="9.999985" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">쪽</tspan>
+     <tspan x="19.999969" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+     <tspan x="23.199966" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">기</tspan>
+     <tspan x="33.199951" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">존</tspan>
+     <tspan x="43.199936" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+     <tspan x="46.399933" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">P</tspan>
+     <tspan x="57.235596" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">,</tspan>
+     <tspan x="60.065598" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+     <tspan x="63.265594" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">오</tspan>
+     <tspan x="73.265579" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">른</tspan>
+     <tspan x="83.265564" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">쪽</tspan>
+     <tspan x="93.265549" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+     <tspan x="96.465546" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">순</tspan>
+     <tspan x="106.46553" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">위</tspan>
+     <tspan x="116.465515" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+     <tspan x="119.665512" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">P</tspan>
+     <tspan x="130.501175" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+     <tspan x="133.701172" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">(</tspan>
+     <tspan x="138.701172" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">검</tspan>
+     <tspan x="148.701157" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">증</tspan>
+     <tspan x="158.701141" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+     <tspan x="161.901138" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">구</tspan>
+     <tspan x="171.901123" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">간</tspan>
+     <tspan x="181.901108" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">,</tspan>
+     <tspan x="184.73111" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+     <tspan x="187.931107" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">사</tspan>
+     <tspan x="197.931091" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">용</tspan>
+     <tspan x="207.931076" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">자</tspan>
+     <tspan x="217.931061" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e"> </tspan>
+     <tspan x="221.131058" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">4</tspan>
+     <tspan x="227.931046" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">4</tspan>
+     <tspan x="234.731033" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">9</tspan>
+     <tspan x="241.531021" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">명</tspan>
+     <tspan x="251.531006" y="-0.78125" style="font-size: 10px; font-family: 'AppleGothic'; fill: #52514e">)</tspan>
+     <tspan x="52.525635" y="0.718745" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">u</tspan>
+     <tspan x="125.791214" y="0.718745" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">u</tspan>
+    </text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa5a4c9c32a">
+   <rect x="55.848" y="46.512" width="293.52" height="221.864"/>
+  </clipPath>
+  <clipPath id="p7528c24f1d">
+   <rect x="378.168" y="46.512" width="293.52" height="221.864"/>
+  </clipPath>
+ </defs>
+</svg>
