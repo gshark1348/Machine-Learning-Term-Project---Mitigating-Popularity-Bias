@@ -344,6 +344,50 @@ def train(archive, users, epochs, rank):
 
 
 # ---------------------------------------------------------------------------
+# 사용자 선호 인기도 (순위 변환 실험용)
+# ---------------------------------------------------------------------------
+def user_preferences(pop, train_rows):
+    """학습 구간 평점으로 사용자별 원본 선호 인기도 raw P_u 를 계산한다.
+
+    무엇을/왜: 개인화 페널티 λ_u = λ_max·(1 - P_u) 의 P_u 를 사용자 전체에 대해 한 번에 구한다.
+    순위 변환(rank_preference)의 참조 분포를 만들려면 학습 사용자 전원의 raw P_u 가 필요하다.
+    Engine.scores 의 pref 와 같은 정의다:
+        P_u = mean(pop[i])  (i: 사용자가 평점 ≥ THRESHOLD 로 평가한 영화), 그런 영화가 없으면 0.5
+    데이터 누수: train_rows 는 학습 구간(split == 0) 행만 넣어야 한다. validation/test 평점을
+    섞으면 평가 구간 정보가 P_u 에 새어 들어간다 (호출하는 쪽이 split == 0 만 넘길 책임).
+
+    train_rows: u, i, rating 열을 가진 DataFrame.   pop: 영화별 정규화 인기도 배열.
+    반환: 인덱스가 사용자 번호 u(오름차순)인 pd.Series (값은 float raw P_u).
+    """
+    liked = train_rows[train_rows.rating >= THRESHOLD]
+    # 좋아한 영화의 pop 을 사용자별로 평균. 좋아한 영화가 없는 사용자는 reindex 로 NaN -> 0.5
+    mean_pop = pd.Series(pop[liked.i.to_numpy(int)], index=liked.u.to_numpy()).groupby(level=0).mean()
+    return mean_pop.reindex(np.sort(train_rows.u.unique())).fillna(.5)
+
+
+def rank_preference(p, reference):
+    """raw P_u 를 학습 사용자 분포 안에서의 분위수(0~1)로 바꾼다 (중간 순위 경험적 CDF).
+
+    무엇을/왜: raw P_u 는 0.7 근처에 몰려 (1 - P_u) 가 사용자마다 거의 같다. 분위수로 바꾸면
+    0~1 에 고르게 펴져 페널티가 사용자 사이에서 실제로 달라진다.
+    수식:  rank(p) = (#{ref < p} + #{ref <= p}) / (2·|ref|)
+        동점(ref == p)은 구간의 중간값을 받는다. 결과는 0~1.
+    np.searchsorted(a, v, side): 오름차순 정렬된 배열 a 에서 v 를 넣어도 정렬이 유지되는 위치(=앞쪽 원소 수).
+        a: 정렬된 참조 배열, v: 찾을 값(스칼라 또는 배열),
+        side='left'  -> a 에서 v 보다 작은 원소 수 (v 와 같은 값 앞쪽 위치),
+        side='right' -> a 에서 v 이하인 원소 수 (v 와 같은 값 뒤쪽 위치).
+    데이터 누수: reference 는 학습 구간(split == 0)에서 만든 학습 사용자들의 raw P_u 만 쓴다.
+
+    p: 스칼라 또는 배열.   reference: 학습 사용자들의 raw P_u (정렬되지 않아도 됨).
+    반환: p 와 같은 모양의 0~1 값 (스칼라 입력이면 float).
+    """
+    ref = np.sort(np.asarray(reference, float))
+    p = np.asarray(p, float)
+    rank = (np.searchsorted(ref, p, 'left') + np.searchsorted(ref, p, 'right')) / (2 * len(ref))
+    return float(rank) if rank.ndim == 0 else rank
+
+
+# ---------------------------------------------------------------------------
 # 추천 엔진
 # ---------------------------------------------------------------------------
 class Engine:

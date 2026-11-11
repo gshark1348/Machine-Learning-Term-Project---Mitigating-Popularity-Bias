@@ -32,6 +32,7 @@ model.train() 이 마지막에 run_evaluation(run) 을 호출한다.
     ndcg_at_10()          한 사용자의 NDCG@10.
     tail_recalls()        롱테일 정답에 대한 풀/추천 재현율.
     user_metrics()        한 사용자·한 설정의 [ndcg, recall, tail, popularity].
+    load_preference_reference()  학습 사용자들의 raw P_u (adaptive_rank 의 참조 분포).
     evaluate()            사용자 전체에 대해 설정(configs)별 지표를 집계한다.
     summarize()           누적 결과(out)를 CSV 행(dict) 목록으로 바꾼다.
     choose_penalties()    validation 에서 fixed/adaptive 페널티 강도를 고른다.
@@ -42,7 +43,7 @@ model.train() 이 마지막에 run_evaluation(run) 을 호출한다.
 import json
 import numpy as np
 import pandas as pd
-from model import Engine, active_model
+from model import Engine, active_model, rank_preference, user_preferences
 
 # 페널티 후보 grid (참고: 간격이 거칠어서 0 이 선택되는 경우가 있다 -> outputs/settings.json 의 0)
 GRID = [0, .02, .05, .1, .2]
@@ -109,19 +110,32 @@ def user_metrics(e, rec, truth):
 # ---------------------------------------------------------------------------
 # 전체 사용자 평가
 # ---------------------------------------------------------------------------
-def evaluate(e, groups, split, configs, slots=0):
+def load_preference_reference(e, rows):
+    """adaptive_rank 의 참조 분포: 학습 사용자 전원의 raw P_u 배열을 돌려준다.
+
+    rows: split.csv.gz 전체 행. 데이터 누수를 막으려고 split == 0 (학습 구간) 행만 사용한다.
+    """
+    return user_preferences(e.pop, rows[rows.split == 0]).to_numpy()
+
+
+def evaluate(e, groups, split, configs, slots=0, reference=None):
     """모든 평가 사용자에 대해 configs 의 각 설정을 평가해 결과 행(dict) 목록을 돌려준다.
 
     split: 1 이면 validation 을, 2 이면 test 를 정답으로 삼는다.
            split 번호보다 작은 분할의 평점은 모두 "이미 본 영화(seen)" 이다.
     configs: (alpha, method, k) 목록. method 가 'adaptive' 면 페널티 = k·(1 - pref),
+             'adaptive_rank' 면 페널티 = k·(1 - rank_preference(pref, reference)) (pref 를 학습
+             사용자 분포 안의 분위수로 바꿔 0~1 에 펴서 쓴다),
              그 외에는 페널티 = k. ('content'/'cf'/'hybrid' 는 k=0, 'fixed' 는 k 고정.)
+    reference: 'adaptive_rank' 에 필요한 학습 사용자 raw P_u 배열 (load_preference_reference).
     slots: 후보 풀에 넣을 콘텐츠 슬롯 수 (Engine.pool 의 content_slots).
 
     out 의 삽입 순서가 결과 행 순서(= CSV 행 순서)를 결정한다. 순서를 바꾸면 안 된다.
     out[(alpha, method, k, group)] = (사용자별 지표 목록, 추천된 영화 집합, 롱테일 재현율 목록)
     group 은 'all' 과 사용자 자신의 그룹(explorer/balanced/mainstream) 두 곳에 모두 누적한다.
     """
+    if reference is None and any(m == 'adaptive_rank' for _, m, _ in configs):
+        raise ValueError("method='adaptive_rank' 는 reference(학습 사용자 raw P_u 배열)가 필요하다")
     out = {}
     for u, g in groups:
         train = g[g.split == 0]              # 사용자 요인을 만드는 데 쓴 평점
@@ -134,7 +148,12 @@ def evaluate(e, groups, split, configs, slots=0):
         for alpha, method, k in configs:
             if alpha not in pools:
                 pools[alpha] = e.pool(cf, cb, alpha, seen, slots)
-            penalty = k * (1 - pref) if method == 'adaptive' else k
+            if method == 'adaptive':
+                penalty = k * (1 - pref)
+            elif method == 'adaptive_rank':
+                penalty = k * (1 - rank_preference(pref, reference))
+            else:
+                penalty = k
             rec = e.rank(*pools[alpha], penalty)
             tail_scores = tail_recalls(e, truth, pools[alpha][0], rec)
             metrics = user_metrics(e, rec, truth)
